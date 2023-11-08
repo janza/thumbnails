@@ -2,6 +2,8 @@ import OpenAI from "openai";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
+export const maxDuration = 60;
+
 export async function OPTIONS(request: Request) {
   return new Response('ok', {
     status: 200,
