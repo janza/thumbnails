@@ -8,10 +8,10 @@ export async function POST(request: Request) {
   const response = await openai.completions.create({
     model: "gpt-3.5-turbo-instruct",
         prompt: `
-Summarize the following items in one sentence:
+Summarize the following list of ideas that was presented on a whiteboard in a meaningful sentence:
 - ${items.join('-\n')}
 `,
-    max_tokens: 20,
+    max_tokens: 50,
     temperature: 0,
   });
 
