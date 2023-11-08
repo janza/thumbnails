@@ -33,7 +33,7 @@ A small logo for ${topic}.
 Using this color pallete: #ffffff, #FD7F7F, #746bd3, #d6ccff. Do not output color pallete sample.
 Use #faf6ee as background color.
 
-Simple
+Big shapes.
 No text.
 Isometric
 `,
